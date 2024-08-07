@@ -5,7 +5,7 @@ using Core.Extensions;
 using Core.Providers.Interfaces;
 using Core.Services.Interfaces;
 
-namespace SeleniumWeb.Actions;
+namespace Selenium.Actions;
 
 public class ResultsActions(IConfigurationProvider configurationProvider, IResultsWriter resultsWriter)
 {

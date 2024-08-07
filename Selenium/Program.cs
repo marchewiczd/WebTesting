@@ -1,8 +1,8 @@
 ﻿using Core.Providers;
 using Core.Services;
-using SeleniumWeb.Actions;
+using Selenium.Actions;
 
-namespace SeleniumWeb;
+namespace Selenium;
 
 public static class Program
 {

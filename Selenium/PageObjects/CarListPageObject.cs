@@ -5,7 +5,7 @@ using Core.Extensions;
 using Core.Data;
 using Core.Providers.Interfaces;
 
-namespace SeleniumWeb.PageObjects;
+namespace Selenium.PageObjects;
 
 public class CarListPageObject(
     IWebDriver webDriver,

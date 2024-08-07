@@ -4,9 +4,9 @@ using Core.Enums;
 using Core.Factories;
 using Core.Providers;
 using Core.Providers.Interfaces;
-using SeleniumWeb.PageObjects;
+using Selenium.PageObjects;
 
-namespace SeleniumWeb.Actions;
+namespace Selenium.Actions;
 
 public class CrawlerActions(IConfigurationProvider configurationProvider)
 {
