@@ -1,0 +1,22 @@
+﻿<RunSettings>
+    <RunConfiguration>
+        <EnvironmentVariables>
+            <DEBUG>pw:api</DEBUG>
+        </EnvironmentVariables>
+    </RunConfiguration>
+
+    <!-- Custom test parameters -->
+    <TestRunParameters>
+        <Parameter name="URL" value="https://www.bricklink.com/"/>
+    </TestRunParameters>
+
+    <!-- Playwright -->
+    <Playwright>
+        <BrowserName>chromium</BrowserName>
+        <ExpectTimeout>5000</ExpectTimeout>
+        <LaunchOptions>
+            <Headless>false</Headless>
+            <Channel>chrome</Channel>
+        </LaunchOptions>
+    </Playwright>
+</RunSettings>
